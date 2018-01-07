@@ -7,86 +7,226 @@
     <link rel="stylesheet" href="css.css" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
 
 
 
 <body>
-    <div id="index">
-        <header>
-            <nav>
-                <a href="#splash">Forside</a>
-                <a href="#om">Om</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#kontakt">Kontakt</a>
-            </nav>
-        </header>
-    </div>
+    <header>
+        <nav>
+            <a id="nav_home" href="#splash">HOME</a>
+            <a id="nav_om" href="#om">OM</a>
+            <a id="nav_portfolio" href="#portfolio">PORTFOLIO</a>
+        </nav>
+    </header>
 
-
-
-    <div id="content_box">
-
-        <section id="forside">
-            <h1>PORTFOLIO</h1>
-            <div class="sectionwrapper">
-                <div class="column">
-                    <p>1. Semester opgaver.</p>
-                </div>
-            </div>
-        </section>
-    </div>
     <section id="portfolio">
-            <div class="links_container">
-                <div class="links_foto">
+        <h1>PORTFOLIO</h1>
+        <h2>MULTIMEDIEDESIGN &nbsp; &#9679; &nbsp; 1. SEMESTER OPGAVER</h2>
+        <div class="links_container">
+            <div class="links_foto">
+                <img id="swiss" border="0" alt="swissstyle" src="billeder/swiss.jpg">
+                <div class="middle">
+                    <div class="text">GRUNDLÆGGENDE HTML</div>
+                </div>
 
-                    <h3>Grundlæggende HTML</h3>
-                    <a href="http://mathildeulvig.dk/kea/01-web/04-responsive/stilartsite/final/index.html">
-                         <img border="0" alt="swissstyle" src="billeder/swiss.jpg" >
-                    </a>
-                </div>
-                <div class="links_foto">
-                    <h3>Grundlæggende video</h3>
-                    <a href="http://mathildeulvig.dk/kea/03-video/03-redesign/finalsite/forside.html">
-                           <img border="0" alt="ingolfskaffebar" src="billeder/ingolfs.jpg" >
-                        </a>
-                </div>
-                <div class="links_foto">
-                    <h3>Grundlæggende video</h3>
-                    <a href="http://mathildeulvig.dk/kea/03-video/03.02_cph_dox/03.02.02/">
-                            <img border="0" alt="cphdox" src="billeder/kiva.jpg" >
-                        </a>
+            </div>
+            <div class="links_foto">
+                <img id="ingolfs" border="0" alt="ingolfskaffebar" src="billeder/ingolfs.jpg">
+                <div class="middle">
+                    <div class="text">GRUNDLÆGGENDE VIDEO</div>
                 </div>
             </div>
-            <div class="links_container">
-                <div class="links_foto">
-                    <h3>Animation</h3>
-                    <a href="http://mathildeulvig.dk/kea/02-animation/02_04_03_17_dokumentationssite/index.html">
-                            <img border="0" alt="privatsnak" src="billeder/privatsnak.jpg" >
-                        </a>
-                </div>
-                <div class="links_foto">
-                    <h3>Grundlæggende UX</h3>
-                    <a href="http://mathildeulvig.dk/kea/04-ux/04.01.06/afleveringssite/dokumentation.html">
-                            <img border="0" alt="keafolio" src="billeder/keafolio.jpg" >
-                         <div class="middle">
-                        <div class="text">GRUNDLÆGGENDE UX</div></div>
-                        </a>
-                </div>
-                <div class="links_foto">
-                    <h3>Grundlæggende UX</h3>
-                    <a href="http://mathildeulvig.dk/kea/04-ux/04.01.06/afleveringssite/dokumentation.html">
-                            <img border="0" alt="republikken" src="billeder/r_community.jpg" >
-                        <div class="middle">
-                        <div class="text">GRUNDLÆGGENDE UX</div></div>
-
-                        </a>
+            <div class="links_foto">
+                <img id="cphdox" border="0" alt="cphdox" src="billeder/kiva.jpg">
+                <div class="middle">
+                    <div class="text">GRUNDLÆGGENDE VIDEO</div>
                 </div>
             </div>
+        </div>
+        <div class="links_container">
+            <div class="links_foto">
+                <img id="privatsnak" border="0" alt="privatsnak" src="billeder/privatsnak.jpg">
+                <div class="middle">
+                    <div class="text">ANIMATION</div>
+                </div>
+            </div>
+            <div class="links_foto">
+                <img id="keafolio" border="0" alt="keafolio" src="billeder/keafolio.jpg">
+                <div class="middle">
+                    <div class="text">GRUNDLÆGGENDE UX</div>
+                </div>
+            </div>
+            <div class="links_foto">
+                <img id="rcommunity" border="0" alt="republikken" src="billeder/r_community.jpg">
+                <div class="middle">
+                    <div class="text">GRUNDLÆGGENDE UX</div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="om">
+        <h1>OM</h1>
+        <p>Hej mit navn er Mathilde Ulvig Pedersen</p><br>
+        <p>CV:</p><br>
+    </section>
+
+    <div id="knap">
+        <i class="up"></i>
+    </div>
+
+    <section id="stilartsite" class="tilbageknap">
+        <div class="sectionwrapper">
+            <h1>STILARTSITE</h1>
+            <h2>GRUNDLÆGGENDE HTML &nbsp; &#9679; &nbsp; SWISS STYLE </h2>
+            <div class="column">
+                <p>Ved stilartsite opgaven designede jeg en hjemmeside, omhandlende den schweiziske stilart ”Swiss Style”, der opstod i 1920’erne. Her ligger fokusset primært på baggrunden for stilarten, samt de visuelle virkemidler. Hjemmesiden skulle kodes i Brackets, med brug af html og css.</p><br>
+                <p>Målgruppen for opgaven var 13-16 årige, og teksten er derfor gjort letlæselig, med brug af billedsprog og eksempler. For også at tiltrække de unges blikfang og nysgerrighed, bliver Justin Biebers albumcover nævnt under emnet ”Eksempler”, fordi hans musik henvender sig til målgruppen.</p><br>
+                <p>Hjemmesiden er designet efter Swiss Styles visuelle virkemidler, hvor jeg bl.a. har benyttet mig af sans-serif typografi, med farvede overskrifter. Den beigefarvede baggrund er til for at give en ”retro” følelse, som reference til Swiss Styles tidligere værker, der blev trykt på beigefarvet papir. Den røde farve går igen mange steder på hjemmesiden, da denne farve er et klassisk visuelt virkemiddel indenfor Swiss Style.</p><br>
+                <p><b>Værktøjer</b></p>
+                <p>InDesign, Photoshop, HTML og CSS.</p><br>
+                <p><b>Links til opgaver</b></p>
+                <p>Link til
+                    <a href="http://mathildeulvig.dk/kea/01-web/04-responsive/stilartsite/final/index.html"> 01.04.04 Stilartsite final</a></p>
+                <p>Link til
+                    <a href="01.01.03_content_til_stilartsite%20.pdf">01.01.03 Content til stilartsite</a></p>
+            </div>
+            <div class="column">
+                <img src="billeder/swiss.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section id="redesign" class="tilbageknap">
+        <h1>INGOLFSKAFFEBAR</h1>
+        <h2>GRUNDLÆGGENDE VIDEO &nbsp; &#9679; &nbsp; PILOTPROJEKT & REDESIGN </h2>
+        <div class="sectionwrapper">
+            <div class="column">
+                <p>I redesign- og pilotprojektet var Ingolfs Kaffebar case-virksomheden. </p><br>
+                <p><b>Pilotprojekt</b></p>
+                <p>Ved pilotprojektet lavede vi en digital video, som skulle repræsentere Ingolfs Kaffebar som virksomhed. I videoen interviewede vi Oskar, som var tjener på caféen, da lederen ikke var tilstede. Her fortæller Oskar om caféen, stemningen, målgruppen og indretningen, for at give et indtryk af, hvad man kan forvente at opleve som gæst på caféen. Imens Oskar snakker, vises der i videoen forskellige stemning shots indefra og udefra caféen. Vi arbejdede også med forskellige perspektiver, hvor vi bl.a. klatrede op på skuret overfor caféen, for at opnå et fugleperspektiv, så man kunne se hele den hyggelige gårdhave, mange gæster nyder at være i. Der arbejdes primært med stativ i videoen, men også med håndholdt kamera, da vi f.eks. ”træder” ind på caféen. </p><br>
+                <p><b>Redesign</b></p>
+                <p>Før vi begyndte på at designe Ingolfs Kaffebar nye hjemmeside, lavede vi en analyse af den eksisterende website. Her var det tydeligt at Ingolfs Kaffebar havde et gennemgående ”random” tema, som var kaotisk, farverig og festlig. Den bar præg af et retro design med en masse skøre elementer, blandt andet en masse billeder og kontrastrige farver. Det største problem var funktionaliteten, fordi det var svært at få et overblik, og finde den rigtige information man ledte efter. Vores fokus var derfor, at gøre sitet mere simpelt og mindre kaotisk, men hvor vi stadigvæk bevarede retro-looket og den uformelle stemning. Dette gjorde vi ved forenkle menuen, så kun den vigtigste information var tilbage. Derudover gjorde vi brug af en færre typografi fonte, og en mindre farvepalette, hvor farverne primært blev brugt til at give overskrifterne blikfang. Selve farvetemaet går igen på alle siderne, og er varme og behagelige. Vi valgte at beholde Ingolfs Kaffebars logo i toppen af siden, da vi synes det er vigtigt at have elementer som kunderne genkender. </p><br>
+                <p><b>Værktøjer</b></p>
+                <p>Premiere Pro, Brackets (html og css).</p><br>
+                <p><b>Links til opgaver</b></p>
+                <p>Link til
+                    <a href="https://www.youtube.com/watch?v=ZsJ6Us7TbX4">03.01.03 Pilotprojekt</a></p>
+                <p>Link til
+                    <a href="http://mathildeulvig.dk/kea/03-video/03-redesign/finalsite/forside.html">03.03.02 Redesign af website</a></p>
+                <p>Link til
+                    <a href="1Rapport.pdf">Rapport</a></p>
+            </div>
+            <div class="column">
+                <img src="billeder/ingolfs.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section id="cph_dox" class="tilbageknap">
+        <h1>CPH DOX</h1>
+        <h2>GRUNDLÆGGENDE VIDEO &nbsp; &#9679; &nbsp; EVERYDAY PROJECT </h2>
+        <div class="sectionwrapper">
+            <div class="column">
+                <p>Ved grundlæggende video forløbet producerede vi en dokumentaren <b>"Kiva på overfladen"</b> til Everyday Project, der er en videoplatform skabt af CPH:DOX. Projektet tog afsæt i virkeligheden, og har fokus på almindelige mennesker ualmindelige historier. Filmen skulle have en længde på 2-3 minutter, og omhandle et af temaerne: ”Selvoptaget” eller ”Demokrati”. Min gruppe og jeg valgte temaet Selvoptaget. </p><br>
+                <p>Dokumentaren indeholder et interview med hovedpersonen Kiva Brynaa, som arbejder med det ”overfladiske”. Hun er autodidakt fotograf, tatovør og make-up artist, og hun bliver i videoen bedt om at udtale sig om forholdet mellem det overfladiske og selvoptagethed – fordi er man selvoptaget, fordi man optaget af den overfladiske verden?</p><br>
+                <p> Dokumentaren er filmet i Kivas lejlighed i Københavns Nordvest-kvarter, som også er hendes arbejdsplads. Videoen indeholder flere handling-sekvenser, som understøtter det Kiva fortæller. Bl.a. har vi som b-roll Kivas kæreste, som lod sig tatovere til optagelserne.</p><br>
+                <p>I forberedelserne op til optagelserne, udarbejdede vi et storyboard og interviewguide, så vi kunne gribe opgaven professionelt og struktureret ad for at opnå det ønskede resultat.</p><br>
+                <p>På optagelsesdagen benyttede vi to kameraer for at få forskellige vinkler på interviewet, en ekstern lydoptaget - clipsmikrofon, stativ, samt kunstigt lys fra lamperne i Kivas studie og naturligt lys udefra.
+                </p><br>
+                <p><b>Værktøjer</b></p>
+                <p>Premiere Pro, Photoshop, Camera Equipment, HTML og CSS</p><br>
+                <p><b>Links</b></p>
+                <p>Link til
+                    <a href="http://mathildeulvig.dk/kea/03-video/03.02_cph_dox/03.02.02/">03.02.02 CPH DOX Projekt med video</a></p><br>
+            </div>
+            <div class="column">
+                <img src="billeder/kiva.jpg">
+            </div>
+    </section>
+
+    <section id="animation" class="tilbageknap">
+        <h1>SEX & SAMFUND</h1>
+        <h2>ANIMATION &nbsp; &#9679; &nbsp; PRIVAT SNAK</h2>
+        <div class="sectionwrapper">
+            <div class="column">
+                <p><b>#MinGrænse</b> er et animeret dilemmaspil min gruppe og jeg lavede for Privat Snak, der tilhører Sex & Samfund. Privatsnak er ”lillesøster” til Sexlinien, og står for rådgivning til 10-15 årige, men vi blev i opgaven bedt om at målrette dilemmaspillet til kun de 13-15 årige.</p><br>
+                <p>Formålet med opgaven var at skabe opmærksomhed om privatsnak.dk, som et sted, hvor de unge kan få hjælp og råd, og stille målgruppen et dilemma angående deling af andres folk private billeder.</p><br>
+                <p>Animationspillet budskab er, at det ikke var i orden, og faktisk ulovligt, at dele/videresende andre folks billeder. Det er ukendt for mange unge, og vi skulle derfor skabe opmærksomhed på dette, samt gøre dem klogere på deres kendskab til rettigheder og lovgivning.</p><br>
+                <p>Dilemmaet i #MinGrænse opstår ved at karakteren i spillet modtager en snapchat af en nøgen dreng, og man får her muligheden for at slette billedet, eller videresende det. Scenariet hvor man videresender billedet er, at man starter en kædereaktion, hvor hele ”byen” videresender billedet, og vi ser folk reaktioner i form af beskeder og emojis. Derefter kommer man tilbage til karakterens værelse, hvor der nu kommer tremmer ned foran karakteren, som i et fængsel, som signalerer, at det valg man har truffet ikke bare er dårlig stil – det er faktisk også ulovligt. Hvis man derimod vælger at slette billedet, modtager man en besked fra drengen, hvor han takker for at man er en god ven.</p><br>
+                <p>Sammen med vores animeret dilemmaspil skulle vi aflevere procesdokumentation, som bl.a. indeholder et flow chart, målgruppebeskrivelse, moodboard, styletile og facebook- og instagramannonce. </p><br>
+                <p>Animationen visuelle stil tog udgangspunkt i Privatsnaks farver og designmanual.</p><br>
+                <p><b>Værktøjer</b></p>
+                <p>HTML, CSS, JavaScript, jQuery, SVG, Illustrator, InDesign</p><br>
+                <p><b>Links</b></p>
+                <p>Link til
+                    <a href="http://mathildeulvig.dk/kea/02-animation/02_04_03_17_dokumentationssite/index.html">02.04.03 Sex & Samfund</a></p>
+            </div>
+            <div class="column">
+                <img src="billeder/privatsnak.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section id="kea_app" class="tilbageknap">
+        <h1>KEA APP</h1>
+        <h2>GRUNDLÆGGENDE UX &nbsp; &#9679; &nbsp; KEA FOLIO</h2>
+        <div class="sectionwrapper">
+            <div class="column">
+                <p>KEAFOLIO er en app-prototype, som vi har udviklet til Københavns Erhvervsakademi, som en øvelsescase indenfor UX. Opgaven lød på at finde en relevant problemstilling, og udvikle en app som løsning derpå. Målgruppen var studerende på KEA, som skulle kunne bruge App’en i forhold til et eller andet relateret til studiet på KEA. Det endelig resultat skulle præsenteres med en pitch for KEAs ledelse.</p><br>
+                <p>Til dette projekt har vi gjort brug af Design Thinking (Empathize, Define, Ideate, Paper Prototype, Usability Test, Implement), som procesmetrode til at designe en løsning på vores problemstilling, vi hvor derefter skulle implementere løsningen som en prototype i Adobe XD.</p><br>
+                <p>Jeg fandt på idéen ”KEAFOLIO”, som min gruppe og jeg valgte at gå videre med. KEAFOLIO fungerer som en inspirationsportal, som gør det muligt for den enkelte KEA studerende at dele sine skoleprojekter med sine medstuderende, og samtidig få indblik i andre medstuderende arbejde.</p><br>
+                <p>Vores overvejelser af det grafiske design gik på, at app’en skulle fremstå funktionel, simpel og bærer præg af et minimalistisk udtryk. Vi fandt inspiration i det skandinaviske design – som altid har formet at fusionere ”the art of simplicity” og funktionalitet. Vi gik derfor efter princippet ”Less i more”, hvor de farverige elementer i appen fremkommer af de billeder og videoer de studerende poster på deres profil. Gestaltlovene sørger for at vores design og funktionalitet går hånd i hånd, i stedet for at modarbejde hinanden. Det øger brugervenligheden og hjælper brugeren med at fokusere på vores apps indhold.</p><br>
+                <p>App’en bliver formidlet på vores dokumentationssite, og man kan på vores præsentationssite læse fordele og benefits med KEAFOLIO, samt klikke videre hen til app’en og vores pitch.</p><br>
+                <p><b>Værktøjer</b></p>
+                <p>InDesign, Illustrator, CSS, HTML, Adobe XD</p>
+                <p><b>Links</b></p>
+                <p>Link til
+                    <a href="http://mathildeulvig.dk/kea/04-ux/04.01.06/afleveringssite/dokumentation.html">04.01.06 Dokumentationsite</a></p><br>
+                <p>Link til
+                    <a href="http://mathildeulvig.dk/kea/04-ux/04.01.06/afleveringssite/index.html">04.01.0 Præsentationsite</a></p>
+            </div>
+            <div class="column">
+                <img src="billeder/keafolio.jpg">
+            </div>
+        </div>
 
     </section>
 
+    <section id="republikken" class="tilbageknap">
+        <h1>REPUBLIKKEN</h1>
+        <h2>GRUNDLÆGGENDE UX &nbsp; &#9679; &nbsp; R COMMUNITY</h2>
+        <p><b>Intro</b></p>
+        <p><b>Refleksioner</b></p>
+        <p><b>Værktøjer</b></p>
+        <p>Link til
+            <a href="link">04.02.03 Dokumentationsite</a></p><br>
+        <p>Link til
+            <a href="01.01.03_content_til_stilartsite%20.pdf">04.02.04 Præsentationsite</a></p>
+    </section>
+
+
+    <footer>
+        <section id="kontakt">
+            <h4>KONTAKT</h4>
+            <p>Mathilde Ulvig Pedersen<br>
+                <a href="mailto:mathilde-up@hotmail.com">mathilde-up@hotmail.com</a><br>
+                <a href="https://www.instagram.com/mathildeulvig/">
+                <img src="billeder/kontakt/instagramhvid.png" style="width:35px;height:35px;border:0;" alt="Instagram Logo">
+            </a>
+                <a href="https://www.facebook.com/mathildeup">
+                <img src="billeder/kontakt/facebookhvid.png" style="width:35px;height:35px;border:0;" alt="Facebook Logo">
+            </a>
+        </section>
+    </footer>
+
 </body>
+<script src="java.js"></script>
+
 
 </html>
