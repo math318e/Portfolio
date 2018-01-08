@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #ffff;
+    background-color: white;
 }
 
 
@@ -12,11 +12,16 @@ body {
 
 header {
     width: 100%;
-    height: 40vw;
-    background-image: url(billeder/Background.jpg);
-    background-size: cover;
+    height: 55vw;
+    background-color: black;
 }
 
+#migpaaforside img {
+    width: 45%;
+    margin: 0 auto;
+    display: block;
+
+}
 
 header nav {
     font-family: 'Montserrat', sans-serif;
@@ -30,8 +35,8 @@ header nav {
 header nav a {
     text-decoration: none;
     color: white;
-    margin: 100px;
-    font-size: 130%;
+    margin: 25px;
+    font-size: 120%;
     /*    font-size: 2.5vw;*/
     /*    margin: 20px;*/
 }
@@ -40,6 +45,7 @@ header nav a:hover {
     color: white;
     /****  cmd e skifter du farven ****/
 }
+
 
 /****FORSIDE OG MENU SLUT****/
 
@@ -151,9 +157,40 @@ p {
 
 /****OM****/
 
+#om .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#om .column {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
 #om {
     display: none;
     width: 100%;
+    margin: 1vw;
+}
+
+#om img {
+    width: 90%;
+    margin-left: 2vw;
+}
+
+.cv_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 300px;
+}
+
+.cv_box {
+    flex-grow: 1;
+    flex-basis: 300px;
+    text-align: center;
+    margin: 1vw;
+    padding: 1.5vw;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 /****OM SLUT****/
@@ -273,58 +310,30 @@ p {
 
 /****KEA FOLIO SLUT****/
 
-/****STILARTSITE START****/
-
-#stilartsite {
-    display: none;
-}
-
-/****STILARTSITE SlUT****/
-
-/****REDESIGN START****/
-
-#redesign {
-    display: none;
-}
-
-/****REDESIGN SlUT****/
-
-/****CPH DOX START****/
-
-#cph_dox {
-    display: none;
-}
-
-/****CPH DOX SlUT****/
-
-/****ANIMATION START****/
-
-#animation {
-    display: none;
-}
-
-/****ANIMATION SLUT****/
-
-/****KEA APP START****/
-
-#kea_app {
-    display: none;
-}
-
-/****KEA APP SlUT****/
-
 /****REPUBLIKKEN START****/
 
+#republikken .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#republikken .column {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+#republikken img {
+    width: 100%;
+}
+
 #republikken {
+    margin: 1vw;
     display: none;
 }
 
 /****REPUBLIKKEN SLUT****/
 
-.active {}
-
-
-/****TILBAGEKNAP****/
+/****TILBAGEKNAP START****/
 
 /****hjælp fra w3schools****/
 
@@ -348,9 +357,7 @@ i {
     cursor: pointer;
 }
 
-
-
-
+/****TILBAGEKNAP SLUT****/
 
 /****KONTAKT START***/
 
@@ -359,9 +366,10 @@ i {
     width: 100%;
     background-color: black;
     color: white;
-    margin-top: 1vw;
     padding: 1vw;
     line-height: 150%;
+    height: 200px;
+
 
 }
 

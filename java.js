@@ -8,6 +8,8 @@ $(document).ready(function () {
     $("#nav_om").click(function () {
         $("#portfolio").hide();
         $("#om").slideDown(3000);
+        $(".tilbageknap").hide();
+        $("#knap").hide();
     });
     $("#nav_home").click(function () {
         $("#portfolio").hide();
